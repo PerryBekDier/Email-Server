@@ -8,8 +8,8 @@ use Email::Simple::Creator ();
 
 my $smtpserver = 'Server_IP_here';
 my $smtpport = 25;
-my $smtpuser   = 'bob';
-my $smtppassword = 'Summer15';
+my $smtpuser   = 'SMTP_USERNAME_HERE';
+my $smtppassword = 'SMTP_PASSWORD_HERE';
 
 my $transport = Email::Sender::Transport::SMTP->new({
   host => $smtpserver,
