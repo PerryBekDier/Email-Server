@@ -1,3 +1,4 @@
+# Reference: https://stackoverflow.com/questions/10008277/sending-mail-via-smtp-in-perl
 use strict;
 use warnings;
 
